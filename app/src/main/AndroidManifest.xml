@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EBuy">
-        <activity android:name=".activites.EditProductActivity"></activity>
-        <activity android:name=".activites.Admin_Controls" />
-        <activity android:name=".activites.Landing_Page" />
-        <activity android:name=".activites.Sign_In_Page" />
-        <activity android:name=".activites.Sign_Up_Page" />
-        <activity android:name=".activites.MainActivity">
+        <activity android:name=".activites.EditProductActivity" android:exported="false">
+
+        </activity>
+        <activity android:name=".activites.Admin_Controls" android:exported="false"/>
+        <activity android:name=".activites.Landing_Page" android:exported="false"/>
+        <activity android:name=".activites.Sign_In_Page" android:exported="false"/>
+        <activity android:name=".activites.Sign_Up_Page" android:exported="false"/>
+        <activity android:name=".activites.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
